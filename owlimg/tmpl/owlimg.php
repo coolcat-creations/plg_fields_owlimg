@@ -50,7 +50,7 @@ if (!empty($images))
 
 	JHtml::_('jquery.framework');
 	JHtml::_('script', 'media/plg_fields_owlimg/js/owl.carousel.min.js');
-	JHtml::_('stylesheet', 'media/plg_fields_owlimg/css/owl.carousel.css');
+	JHtml::_('stylesheet', 'media/plg_fields_owlimg/css/owl.carousel.min.css');
 	JHtml::_('stylesheet', 'media/plg_fields_owlimg/css/owl.theme.default.min.css');
 
 	if ($animatein || $animateout)
