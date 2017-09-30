@@ -19,7 +19,7 @@ class PlgFieldsOwlimg extends FieldsListPlugin
 		$fieldNode = parent::onCustomFieldsPrepareDom($field, $parent, $form);
 		if (!$fieldNode)
 		{
-			return $fieldNode;
+			return false;
 		}
 
 		$fieldNode->setAttribute('directory', 'images/');
