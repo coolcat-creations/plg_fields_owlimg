@@ -27,24 +27,26 @@
 	<config>
 		<fields name="params">
 			<fieldset name="basic">
-				<field type="spacer" name="layouthead"
-				       label="PLG_FIELDS_OWLIMG_LAYOUTHEAD"
+				<field 
+					name="layouthead"
+					type="spacer" 
+					label="PLG_FIELDS_OWLIMG_LAYOUTHEAD"
 				/>
 
 				<field
-						name="items"
-						type="number"
-						label="PLG_FIELDS_OWLIMG_ITEMS"
-						min="1"
-						step="1"
-						default="3"
+					name="items"
+					type="number"
+					label="PLG_FIELDS_OWLIMG_ITEMS"
+					min="1"
+					step="1"
+					default="3"
 				/>
 
 				<field
-						name="animatein"
-						label="PLG_FIELDS_OWLIMG_ANIMATEIN"
-						type="groupedlist"
-						default="false"
+					name="animatein"
+					type="groupedlist"
+					label="PLG_FIELDS_OWLIMG_ANIMATEIN"
+					default="false"
 				>
 					<option value="false">default</option>
 					<group label="Attention Seekers">
@@ -168,10 +170,10 @@
 				</field>
 
 				<field
-						name="animateout"
-						label="PLG_FIELDS_OWLIMG_ANIMATEOUT"
-						type="groupedlist"
-						default="false"
+					name="animateout"
+					type="groupedlist"
+					label="PLG_FIELDS_OWLIMG_ANIMATEOUT"
+					default="false"
 				>
 					<option value="false">default</option>
 					<group label="Attention Seekers">
@@ -295,230 +297,230 @@
 				</field>
 
 				<field
-						name="margin"
-						type="text"
-						label="PLG_FIELDS_OWLIMG_MARGIN"
-						filter="integer"
-						default=""
-
+					name="margin"
+					type="text"
+					label="PLG_FIELDS_OWLIMG_MARGIN"
+					filter="integer"
+					default=""
 				/>
 
 				<field
-						name="stagepadding"
-						type="text"
-						filter="integer"
-						label="PLG_FIELDS_OWLIMG_STAGEPADDING"
-						default=""
+					name="stagepadding"
+					type="text"
+					label="PLG_FIELDS_OWLIMG_STAGEPADDING"
+					filter="integer"
+					default=""
 				/>
 
 				<field
-						name="center"
-						label="PLG_FIELDS_OWLIMG_CENTER"
-						type="list"
-						default="false"
-				>
-					<option value="true">JYES</option>
-					<option value="false">JNO</option>
-				</field>
-
-
-				<field
-						name="autowidth"
-						label="PLG_FIELDS_OWLIMG_AUTOWIDTH"
-						type="list"
-						default="false"
+					name="center"
+					type="list"
+					label="PLG_FIELDS_OWLIMG_CENTER"
+					default="false"
 				>
 					<option value="true">JYES</option>
 					<option value="false">JNO</option>
 				</field>
 
 				<field
-						name="loop"
-						label="PLG_FIELDS_OWLIMG_LOOP"
-						type="list"
-						default="false"
+					name="autowidth"
+					type="list"
+					label="PLG_FIELDS_OWLIMG_AUTOWIDTH"
+					default="false"
 				>
 					<option value="true">JYES</option>
 					<option value="false">JNO</option>
 				</field>
 
 				<field
-						name="rewind"
-						label="PLG_FIELDS_OWLIMG_REWIND"
-						type="list"
-						default="true"
+					name="loop"
+					type="list"
+					label="PLG_FIELDS_OWLIMG_LOOP"
+					default="false"
 				>
 					<option value="true">JYES</option>
 					<option value="false">JNO</option>
 				</field>
 
 				<field
-						name="lazyload"
-						label="PLG_FIELDS_OWLIMG_LAZYLOAD"
-						type="list"
-						default="false"
+					name="rewind"
+					type="list"
+					label="PLG_FIELDS_OWLIMG_REWIND"
+					default="true"
 				>
 					<option value="true">JYES</option>
 					<option value="false">JNO</option>
 				</field>
 
 				<field
-						name="dragoptions"
-						label="PLG_FIELDS_OWLIMG_DRAGOPTIONS"
-						type="list"
-						default="0"
+					name="lazyload"
+					type="list"
+					label="PLG_FIELDS_OWLIMG_LAZYLOAD"
+					default="false"
+				>
+					<option value="true">JYES</option>
+					<option value="false">JNO</option>
+				</field>
+
+				<field
+					name="dragoptions"
+					type="list"
+					label="PLG_FIELDS_OWLIMG_DRAGOPTIONS"
+					default="0"
 				>
 					<option value="1">JYES</option>
 					<option value="0">JNO</option>
 				</field>
 
-
 				<field
-						name="mousedrag"
-						label="PLG_FIELDS_OWLIMG_MOUSEDRAG"
-						type="list"
-						showon="dragoptions:1"
-						default="true"
-				>
-					<option value="true">JYES</option>
-					<option value="false">JNO</option>
-				</field>
-
-
-				<field
-						name="touchdrag"
-						label="PLG_FIELDS_OWLIMG_TOUCHDRAG"
-						type="list"
-						showon="dragoptions:1"
-						default="true"
-
-
+					name="mousedrag"
+					type="list"
+					label="PLG_FIELDS_OWLIMG_MOUSEDRAG"
+					default="true"
+					showon="dragoptions:1"
 				>
 					<option value="true">JYES</option>
 					<option value="false">JNO</option>
 				</field>
 
 				<field
-						name="pulldrag"
-						label="PLG_FIELDS_OWLIMG_PULLDRAG"
-						type="list"
-						showon="dragoptions:1"
-						default="true"
+					name="touchdrag"
+					type="list"
+					label="PLG_FIELDS_OWLIMG_TOUCHDRAG"
+					default="true"
+					showon="dragoptions:1"
 				>
 					<option value="true">JYES</option>
 					<option value="false">JNO</option>
 				</field>
 
 				<field
-						name="freedrag"
-						label="PLG_FIELDS_OWLIMG_FREEDRAG"
-						type="list"
-						showon="dragoptions:1"
-						default="false"
+					name="pulldrag"
+					type="list"
+					label="PLG_FIELDS_OWLIMG_PULLDRAG"
+					default="true"
+					showon="dragoptions:1"
 				>
 					<option value="true">JYES</option>
 					<option value="false">JNO</option>
 				</field>
 
+				<field
+					name="freedrag"
+					type="list"
+					label="PLG_FIELDS_OWLIMG_FREEDRAG"
+					default="false"
+					showon="dragoptions:1"
+				>
+					<option value="true">JYES</option>
+					<option value="false">JNO</option>
+				</field>
 
-				<field type="spacer" name="navhead"
-				       label="PLG_FIELDS_OWLIMG_NAVHEAD"
+				<field 
+					name="navhead"
+					type="spacer" 
+					label="PLG_FIELDS_OWLIMG_NAVHEAD"
 				/>
 
 				<field
-						name="nav"
-						label="PLG_FIELDS_OWLIMG_NAV"
-						type="list"
-						default="false"
+					name="nav"
+					type="list"
+					label="PLG_FIELDS_OWLIMG_NAV"
+					default="false"
+				>
+					<option value="true">JYES</option>
+					<option value="false">JNO</option>
+				</field>
+
+				<field	
+					name="navtext"
+					type="text"
+					label="PLG_FIELDS_OWLIMG_NAVTEXT"
+					desc="PLG_FIELDS_OWLIMG_NAVTEXT_DESC"
+					filter="text"
+					default="[&#x27;next&#x27;,&#x27;prev&#x27;]"
+					showon="nav:true"
+				/>
+
+				<field
+					name="dots"
+					type="list"
+					label="PLG_FIELDS_OWLIMG_DOTS"
+					default="true"
+				>
+					<option value="true">JYES</option>
+					<option value="false">JNO</option>
+				</field>
+
+				<field 
+					name="autoplayhead"
+					type="spacer" 
+					label="PLG_FIELDS_OWLIMG_AUTOPLAYHEAD"
+				/>
+
+				<field
+					name="autoplay"
+					type="list"
+					label="PLG_FIELDS_OWLIMG_AUTOPLAY"
+					default="false"
 				>
 					<option value="true">JYES</option>
 					<option value="false">JNO</option>
 				</field>
 
 				<field
-						name="navtext"
-						type="text"
-						filter="rules"
-						label="PLG_FIELDS_OWLIMG_NAVTEXT"
-						desc="PLG_FIELDS_OWLIMG_NAVTEXT_DESC"
-						showon="nav:true"
-						default="[&#x27;next&#x27;,&#x27;prev&#x27;]"
-				/>
-
-				<field
-						name="dots"
-						label="PLG_FIELDS_OWLIMG_DOTS"
-						type="list"
-						default="true"
+					name="hoverpause"
+					type="list"
+					label="PLG_FIELDS_OWLIMG_HOVERPAUSE"
+					default="false"
+					showon="autoplay:true"
 				>
 					<option value="true">JYES</option>
 					<option value="false">JNO</option>
 				</field>
 
+				<field	
+					name="autoplayspeed"
+					type="text"
+					label="PLG_FIELDS_OWLIMG_AUTOPLAY_SPEED"
+					desc="PLG_FIELDS_OWLIMG_AUTOPLAY_SPEED_DESC"
+					filter="integer"
+					default="false"
+					showon="autoplay:true"
+				/>
 
-				<field type="spacer" name="autoplayhead"
-				       label="PLG_FIELDS_OWLIMG_AUTOPLAYHEAD"
+				<field 
+					name="responsivehead"
+					type="spacer" 
+					label="PLG_FIELDS_OWLIMG_RESPONSIVEHEAD"
 				/>
 
 				<field
-						name="autoplay"
-						label="PLG_FIELDS_OWLIMG_AUTOPLAY"
-						type="list"
-						default="false"
-				>
-					<option value="true">JYES</option>
-					<option value="false">JNO</option>
-				</field>
-
-				<field
-						name="hoverpause"
-						label="PLG_FIELDS_OWLIMG_HOVERPAUSE"
-						type="list"
-						default="false"
-						showon="autoplay:true"
-				>
-					<option value="true">JYES</option>
-					<option value="false">JNO</option>
-				</field>
-
-				<field
-						name="autoplayspeed"
-						type="text"
-						filter="integer"
-						label="PLG_FIELDS_OWLIMG_AUTOPLAY_SPEED"
-						desc="PLG_FIELDS_OWLIMG_AUTOPLAY_SPEED_DESC"
-						default="false"
-						showon="autoplay:true"
-				/>
-
-				<field type="spacer" name="responsivehead"
-				       label="PLG_FIELDS_OWLIMG_RESPONSIVEHEAD"
-				/>
-
-				<field
-						name="responsive"
-						label="PLG_FIELDS_OWLIMG_RESPONSIVE"
-						type="list"
-						default="false"
+					name="responsive"
+					type="list"
+					label="PLG_FIELDS_OWLIMG_RESPONSIVE"
+					default="false"
 				>
 					<option value="1">JYES</option>
 					<option value="0">JNO</option>
 				</field>
 
-				<field type="spacer" name="responsivedesc"
-				       label="PLG_FIELDS_OWLIMG_RESPONSIVEDESC"
-				       showon="responsive:1"
+				<field 
+					name="responsivedesc"
+					type="spacer" 
+					label="PLG_FIELDS_OWLIMG_RESPONSIVEDESC"
+					showon="responsive:1"
 				/>
 
 				<field
-						name="responsiveoptions"
-						label="PLG_FIELDS_OWLIMG_RESPONSIVE_OPTIONS"
-						desc="PLG_FIELDS_OWLIMG_RESPONSIVE_OPTIONS_DESC"
-						type="textarea"
-						cols="50"
-						rows="20"
-						default=""
-						showon="responsive:1"
+					name="responsiveoptions"
+					type="textarea"
+					label="PLG_FIELDS_OWLIMG_RESPONSIVE_OPTIONS"
+					desc="PLG_FIELDS_OWLIMG_RESPONSIVE_OPTIONS_DESC"
+					cols="50"
+					rows="20"
+					default=""
+					showon="responsive:1"
 				/>
 			</fieldset>
 		</fields>
