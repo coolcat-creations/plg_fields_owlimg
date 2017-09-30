@@ -525,4 +525,7 @@
 			</fieldset>
 		</fields>
 	</config>
+	<updateservers>
+		<server type="extension" name="plg_fields_owlimg Update Site">https://raw.githubusercontent.com/coolcat-creations/plg_fields_owlimg/master/manifest.xml</server>
+	</updateservers>
 </extension>
