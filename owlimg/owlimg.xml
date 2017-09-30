@@ -7,7 +7,7 @@
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<authorEmail>joomla@coolcat-creations.com</authorEmail>
 	<authorUrl>www.coolcat-creations.com</authorUrl>
-	<version>1.0.0-alpha.1</version>
+	<version>1.0.0-alpha</version>
 	<description>PLG_FIELDS_OWLIMG_XML_DESCRIPTION</description>
 	<files>
 		<filename plugin="owlimg">owlimg.php</filename>
