@@ -4,16 +4,18 @@
 		<fieldset name="fieldparams">
 
 			<field
-					name="customclass"
-					type="text"
-					label="PLG_FIELDS_OWLIMG_CUSTOMCLASS"
-					desc="PLG_FIELDS_OWLIMG_CUSTOMCLASS_DESC"
-					filter="cmd"
-					default="myowl"
+				name="customclass"
+				type="text"
+				label="PLG_FIELDS_OWLIMG_CUSTOMCLASS"
+				desc="PLG_FIELDS_OWLIMG_CUSTOMCLASS_DESC"
+				filter="cmd"
+				default="myowl"
 			/>
 
-			<field type="spacer" name="layouthead"
-			       label="PLG_FIELDS_OWLIMG_LAYOUTHEAD"
+			<field 
+				name="layouthead"
+				type="spacer" 
+				label="PLG_FIELDS_OWLIMG_LAYOUTHEAD"
 			/>
 
 			<field
@@ -26,10 +28,10 @@
 			/>
 
 			<field
-					name="animatein"
-					label="PLG_FIELDS_OWLIMG_ANIMATEIN"
-					type="groupedlist"
-					showon="items:1"
+				name="animatein"
+				type="groupedlist"
+				label="PLG_FIELDS_OWLIMG_ANIMATEIN"
+				showon="items:1"
 			>
 				<option value="">COM_FIELDS_FIELD_USE_GLOBAL</option>
 					<group label="Attention Seekers">
@@ -153,10 +155,10 @@
 			</field>
 
 			<field
-					name="animateout"
-					label="PLG_FIELDS_OWLIMG_ANIMATEOUT"
-					type="groupedlist"
-					showon="items:1"
+				name="animateout"
+				type="groupedlist"
+				label="PLG_FIELDS_OWLIMG_ANIMATEOUT"
+				showon="items:1"
 			>
 				<option value="">COM_FIELDS_FIELD_USE_GLOBAL</option>
 				<group label="Attention Seekers">
@@ -280,37 +282,26 @@
 			</field>
 
 			<field
-					name="margin"
-					type="text"
-					label="PLG_FIELDS_OWLIMG_MARGIN"
-					filter="integer"
-					hint="PLG_FIELDS_OWLIMG_LEAVE_EMPTY"
+				name="margin"
+				type="text"
+				label="PLG_FIELDS_OWLIMG_MARGIN"
+				filter="integer"
+				hint="PLG_FIELDS_OWLIMG_LEAVE_EMPTY"
 			/>
 
 			<field
-					name="stagepadding"
-					type="text"
-					filter="integer"
-					label="PLG_FIELDS_OWLIMG_STAGEPADDING"
-					hint="PLG_FIELDS_OWLIMG_LEAVE_EMPTY"
+				name="stagepadding"
+				type="text"
+				label="PLG_FIELDS_OWLIMG_STAGEPADDING"
+				hint="PLG_FIELDS_OWLIMG_LEAVE_EMPTY"
+				filter="integer"
 			/>
 
 			<field
-					name="center"
-					label="PLG_FIELDS_OWLIMG_CENTER"
-					type="list"
-			>
-				<option value="">COM_FIELDS_FIELD_USE_GLOBAL</option>
-				<option value="true">JYES</option>
-				<option value="false">JNO</option>
-			</field>
+				name="center"
+				type="list"
+				label="PLG_FIELDS_OWLIMG_CENTER"
 
-
-
-			<field
-					name="autowidth"
-					label="PLG_FIELDS_OWLIMG_AUTOWIDTH"
-					type="list"
 			>
 				<option value="">COM_FIELDS_FIELD_USE_GLOBAL</option>
 				<option value="true">JYES</option>
@@ -318,9 +309,9 @@
 			</field>
 
 			<field
-					name="loop"
-					label="PLG_FIELDS_OWLIMG_LOOP"
-					type="list"
+				name="autowidth"
+				type="list"
+				label="PLG_FIELDS_OWLIMG_AUTOWIDTH"
 			>
 				<option value="">COM_FIELDS_FIELD_USE_GLOBAL</option>
 				<option value="true">JYES</option>
@@ -328,9 +319,9 @@
 			</field>
 
 			<field
-					name="rewind"
-					label="PLG_FIELDS_OWLIMG_REWIND"
-					type="list"
+				name="loop"
+				type="list"
+				label="PLG_FIELDS_OWLIMG_LOOP"
 			>
 				<option value="">COM_FIELDS_FIELD_USE_GLOBAL</option>
 				<option value="true">JYES</option>
@@ -338,9 +329,9 @@
 			</field>
 
 			<field
-					name="lazyload"
-					label="PLG_FIELDS_OWLIMG_LAZYLOAD"
-					type="list"
+				name="rewind"
+				type="list"
+				label="PLG_FIELDS_OWLIMG_REWIND"
 			>
 				<option value="">COM_FIELDS_FIELD_USE_GLOBAL</option>
 				<option value="true">JYES</option>
@@ -348,9 +339,19 @@
 			</field>
 
 			<field
-					name="dragoptions"
-					label="PLG_FIELDS_OWLIMG_DRAGOPTIONS"
-					type="list"
+				name="lazyload"
+				type="list"
+				label="PLG_FIELDS_OWLIMG_LAZYLOAD"
+			>
+				<option value="">COM_FIELDS_FIELD_USE_GLOBAL</option>
+				<option value="true">JYES</option>
+				<option value="false">JNO</option>
+			</field>
+
+			<field
+				name="dragoptions"
+				type="list"
+				label="PLG_FIELDS_OWLIMG_DRAGOPTIONS"
 			>
 				<option value="">COM_FIELDS_FIELD_USE_GLOBAL</option>
 				<option value="1">JYES</option>
@@ -359,10 +360,10 @@
 
 
 			<field
-					name="mousedrag"
-					label="PLG_FIELDS_OWLIMG_MOUSEDRAG"
-					type="list"
-					showon="dragoptions:1"
+				name="mousedrag"
+				type="list"
+				label="PLG_FIELDS_OWLIMG_MOUSEDRAG"
+				showon="dragoptions:1"
 			>
 				<option value="">COM_FIELDS_FIELD_USE_GLOBAL</option>
 				<option value="true">JYES</option>
@@ -371,11 +372,10 @@
 
 
 			<field
-					name="touchdrag"
-					label="PLG_FIELDS_OWLIMG_TOUCHDRAG"
-					type="list"
-					showon="dragoptions:1"
-
+				name="touchdrag"
+				type="list"
+				label="PLG_FIELDS_OWLIMG_TOUCHDRAG"
+				showon="dragoptions:1"
 			>
 				<option value="">COM_FIELDS_FIELD_USE_GLOBAL</option>
 				<option value="true">JYES</option>
@@ -383,11 +383,10 @@
 			</field>
 
 			<field
-					name="pulldrag"
-					label="PLG_FIELDS_OWLIMG_PULLDRAG"
-					type="list"
-					showon="dragoptions:1"
-
+				name="pulldrag"
+				type="list"
+				label="PLG_FIELDS_OWLIMG_PULLDRAG"
+				showon="dragoptions:1"
 			>
 				<option value="">COM_FIELDS_FIELD_USE_GLOBAL</option>
 				<option value="true">JYES</option>
@@ -395,27 +394,26 @@
 			</field>
 
 			<field
-					name="freedrag"
-					label="PLG_FIELDS_OWLIMG_FREEDRAG"
-					type="list"
-					showon="dragoptions:1"
-
+				name="freedrag"
+				type="list"
+				label="PLG_FIELDS_OWLIMG_FREEDRAG"
+				showon="dragoptions:1"
 			>
 				<option value="">COM_FIELDS_FIELD_USE_GLOBAL</option>
 				<option value="true">JYES</option>
 				<option value="false">JNO</option>
 			</field>
 
-
-
-			<field type="spacer" name="navhead"
-			       label="PLG_FIELDS_OWLIMG_NAVHEAD"
+			<field 
+				name="navhead"
+				type="spacer" 
+				label="PLG_FIELDS_OWLIMG_NAVHEAD"
 			/>
 
 			<field
-					name="nav"
-					label="PLG_FIELDS_OWLIMG_NAV"
-					type="list"
+				name="nav"
+				type="list"
+				label="PLG_FIELDS_OWLIMG_NAV"
 			>
 				<option value="">COM_FIELDS_FIELD_USE_GLOBAL</option>
 				<option value="true">JYES</option>
@@ -423,48 +421,35 @@
 			</field>
 
 			<field
-					name="navtext"
-					type="text"
-					filter="rules"
-					label="PLG_FIELDS_OWLIMG_NAVTEXT"
-					desc="PLG_FIELDS_OWLIMG_NAVTEXT_DESC"
-					hint="PLG_FIELDS_OWLIMG_LEAVE_EMPTY"
-					showon="nav:true"
+				name="navtext"
+				type="text"
+				label="PLG_FIELDS_OWLIMG_NAVTEXT"
+				desc="PLG_FIELDS_OWLIMG_NAVTEXT_DESC"
+				hint="PLG_FIELDS_OWLIMG_LEAVE_EMPTY"
+				filter="text"
+				showon="nav:true"
 			/>
 
 			<field
-					name="dots"
-					label="PLG_FIELDS_OWLIMG_DOTS"
-					type="list"
+				name="dots"
+				type="list"
+				label="PLG_FIELDS_OWLIMG_DOTS"
 			>
 				<option value="">COM_FIELDS_FIELD_USE_GLOBAL</option>
 				<option value="true">JYES</option>
 				<option value="false">JNO</option>
 			</field>
 
-
-
-
-
-			<field type="spacer" name="autoplayhead"
-			       label="PLG_FIELDS_OWLIMG_AUTOPLAYHEAD"
+			<field 
+				name="autoplayhead"
+				type="spacer" 
+				label="PLG_FIELDS_OWLIMG_AUTOPLAYHEAD"
 			/>
 
 			<field
-					name="autoplay"
-					label="PLG_FIELDS_OWLIMG_AUTOPLAY"
-					type="list"
-			>
-				<option value="">COM_FIELDS_FIELD_USE_GLOBAL</option>
-				<option value="true">JYES</option>
-				<option value="false">JNO</option>
-			</field>
-
-			<field
-					name="hoverpause"
-					label="PLG_FIELDS_OWLIMG_HOVERPAUSE"
-					type="list"
-					showon="autoplay:true"
+				name="autoplay"
+				type="list"
+				label="PLG_FIELDS_OWLIMG_AUTOPLAY"
 			>
 				<option value="">COM_FIELDS_FIELD_USE_GLOBAL</option>
 				<option value="true">JYES</option>
@@ -472,45 +457,60 @@
 			</field>
 
 			<field
-					name="autoplayspeed"
-					type="text"
-					filter="integer"
-					label="PLG_FIELDS_OWLIMG_AUTOPLAY_SPEED"
-					desc="PLG_FIELDS_OWLIMG_AUTOPLAY_SPEED_DESC"
-					hint="PLG_FIELDS_OWLIMG_LEAVE_EMPTY"
-					showon="autoplay:true"
+				name="hoverpause"
+				type="list"
+				label="PLG_FIELDS_OWLIMG_HOVERPAUSE"
+				showon="autoplay:true"
+			>
+				<option value="">COM_FIELDS_FIELD_USE_GLOBAL</option>
+				<option value="true">JYES</option>
+				<option value="false">JNO</option>
+			</field>
+
+			<field
+				name="autoplayspeed"
+				type="text"
+				label="PLG_FIELDS_OWLIMG_AUTOPLAY_SPEED"
+				desc="PLG_FIELDS_OWLIMG_AUTOPLAY_SPEED_DESC"
+				hint="PLG_FIELDS_OWLIMG_LEAVE_EMPTY"
+				filter="integer"
+				showon="autoplay:true"
 			/>
 
-			<field type="spacer" name="responsivehead"
-			       label="PLG_FIELDS_OWLIMG_RESPONSIVEHEAD"
+			<field 
+				name="responsivehead"
+				type="spacer" 
+				label="PLG_FIELDS_OWLIMG_RESPONSIVEHEAD"
 			/>
 
 			<field
-					name="responsive"
-					label="PLG_FIELDS_OWLIMG_RESPONSIVE"
-					type="list"
+				name="responsive"
+				type="list"
+				label="PLG_FIELDS_OWLIMG_RESPONSIVE"
 			>
 				<option value="">COM_FIELDS_FIELD_USE_GLOBAL</option>
 				<option value="1">JYES</option>
 				<option value="0">JNO</option>
 			</field>
 
-			<field type="spacer" name="responsivedesc"
-			       label="PLG_FIELDS_OWLIMG_RESPONSIVEDESC"
-			       showon="responsive:1"
+			<field 
+				name="responsivedesc"
+				type="spacer" 
+				label="PLG_FIELDS_OWLIMG_RESPONSIVEDESC"
+				showon="responsive:1"
 			/>
 
 			<field
-					name="responsiveoptions"
-					label="PLG_FIELDS_OWLIMG_RESPONSIVE_OPTIONS"
-					desc="PLG_FIELDS_OWLIMG_RESPONSIVE_OPTIONS_DESC"
-					type="textarea"
-					cols="50"
-					rows="20"
-					hint="PLG_FIELDS_OWLIMG_LEAVE_EMPTY"
-					showon="responsive:1"
+				name="responsiveoptions"
+				type="textarea"
+				label="PLG_FIELDS_OWLIMG_RESPONSIVE_OPTIONS"
+				desc="PLG_FIELDS_OWLIMG_RESPONSIVE_OPTIONS_DESC"
+				hint="PLG_FIELDS_OWLIMG_LEAVE_EMPTY"
+				cols="50"
+				rows="20"
+				showon="responsive:1"
 			/>
-
+			
 		</fieldset>
 	</fields>
 </form>
