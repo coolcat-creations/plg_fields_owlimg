@@ -2,7 +2,7 @@
 	<update>
 		<name>plg_fields_owlimg</name>
 		<description>Joomla! CustomField - Adds a owl carousel based on a selected folder inside your image directory.</description>
-		<element>plg_fields_owlimg</element>
+		<element>owlimg</element>
 		<type>plugin</type>
 		<folder>fields</folder>
 		<client>site</client>
