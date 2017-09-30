@@ -64,7 +64,7 @@ if (!empty($images))
 			<div class="item">
 				<img src="<?php echo $folderpath . $image; ?>">
 			</div>
-		<?php endif; ?>
+		<?php endforeach; ?>
 	</div>
 
 	<script>
