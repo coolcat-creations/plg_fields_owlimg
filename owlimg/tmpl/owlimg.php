@@ -55,7 +55,7 @@ if (!empty($images))
 
 	if ($animatein || $animateout)
 	{
-		JHtml::_('stylesheet', 'media/plg_fields_owlimg/css/animate.css');
+		JHtml::_('stylesheet', 'media/plg_fields_owlimg/css/animate.min.css');
 	}
 ?>
 
