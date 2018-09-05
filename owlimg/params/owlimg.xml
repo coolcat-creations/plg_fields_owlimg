@@ -234,7 +234,7 @@
 					<option value="rotateInUpRight">rotateInUpRight</option>
 				</group>
 
-				<group label="PLG_FIELDS_OWLIMG_ANIMATE_ROTATING_EXITS>
+				<group label="PLG_FIELDS_OWLIMG_ANIMATE_ROTATING_EXITS">
 					<option value="rotateOut">rotateOut</option>
 					<option value="rotateOutDownLeft">rotateOutDownLeft</option>
 					<option value="rotateOutDownRight">rotateOutDownRight</option>
